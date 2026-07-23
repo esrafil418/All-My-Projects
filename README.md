@@ -2,8 +2,6 @@
 
 A modern, responsive portfolio website built with Next.js, Tailwind CSS v4, and shadcn/ui that showcases development projects with interactive filtering capabilities.
 
-![Project Portfolio]()
-
 ## 🚀 Features
 
 - **Interactive Filtering** - Filter projects by technology tags (Next.js, React.js, HTML/CSS, MUI, Chakra UI)
