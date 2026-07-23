@@ -2,7 +2,6 @@ import { Project } from "@/data/projects";
 import { ExternalLink, GitPullRequestArrow } from "lucide-react";
 import Image from "next/image";
 import { Badge } from "./ui/badge";
-import { Button } from "./ui/button";
 import {
   Card,
   CardContent,
@@ -43,19 +42,29 @@ export function ProjectCard({ project }: ProjectCardProps) {
           ))}
         </div>
       </CardContent>
-      <CardFooter className="flex gap-2">
-        <Button variant="outline" size="sm">
-          <a href={project.githubUrl} target="_blank" rel="noopener noreferrer">
+      <CardFooter className="flex flex-col sm:flex-row gap-2">
+        {project.githubUrl && (
+          <a
+            href={project.githubUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center justify-center text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border border-input bg-background hover:bg-accent hover:text-accent-foreground h-9 rounded-md px-3 w-full sm:w-auto"
+          >
             <GitPullRequestArrow className="mr-2 h-4 w-4" />
             Code
           </a>
-        </Button>
-        <Button size="sm">
-          <a href={project.liveUrl} target="_blank" rel="noopener noreferrer">
+        )}
+        {project.liveUrl && (
+          <a
+            href={project.liveUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center justify-center text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-primary text-primary-foreground hover:bg-primary/90 h-9 rounded-md px-3 w-full sm:w-auto"
+          >
             <ExternalLink className="mr-2 h-4 w-4" />
             Live Demo
           </a>
-        </Button>
+        )}
       </CardFooter>
     </Card>
   );

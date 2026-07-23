@@ -23,14 +23,14 @@ export function ProjectFilter() {
             key={tag}
             variant={activeTag === tag ? "default" : "outline"}
             onClick={() => setActiveTag(tag)}
-            className="capitalize transition-all duration-200"
+            className="capitalize transition-all duration-200 cursor-pointer"
           >
             {tag}
           </Button>
         ))}
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
         {filteredProjects.map((project) => (
           <ProjectCard key={project.id} project={project} />
         ))}
