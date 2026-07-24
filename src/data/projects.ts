@@ -21,13 +21,23 @@ export const projects: Project[] = [
   },
   {
     id: crypto.randomUUID(),
-    title: "Blog preview card",
+    title: "Product preview card",
     description:
-      "This is my solution to the Blog preview card challenge on Frontend Mentor.",
+      "This is a solution to the Product preview card component challenge on Frontend Mentor.",
     tags: ["frontend-mentor", "react.js"],
-    image: "https://i.imgpeek.com/0cC9wD3dNrO4",
-    githubUrl: "https://github.com/esrafil418/Blog-preview-card",
-    liveUrl: "https://my-blog-preview.surge.sh/",
+    image: "https://i.imgpeek.com/v9bDhm7H9mX5",
+    githubUrl: "https://github.com/esrafil418/Product-preview-card",
+    liveUrl: "https://outgoing-behavior.surge.sh/",
+  },
+  {
+    id: crypto.randomUUID(),
+    title: "Four card feature section",
+    description:
+      "This is a solution to the Four card feature section challenge on Frontend Mentor.",
+    tags: ["frontend-mentor", "react.js"],
+    image: "https://i.imgpeek.com/z598TA2MD-2N",
+    githubUrl: "https://github.com/esrafil418/Four-card-feature-section",
+    liveUrl: "https://four-card-feature-section-v2.surge.sh/",
   },
   {
     id: crypto.randomUUID(),
@@ -41,6 +51,16 @@ export const projects: Project[] = [
   },
   {
     id: crypto.randomUUID(),
+    title: "Blog preview card",
+    description:
+      "This is my solution to the Blog preview card challenge on Frontend Mentor.",
+    tags: ["frontend-mentor", "react.js"],
+    image: "https://i.imgpeek.com/0cC9wD3dNrO4",
+    githubUrl: "https://github.com/esrafil418/Blog-preview-card",
+    liveUrl: "https://my-blog-preview.surge.sh/",
+  },
+  {
+    id: crypto.randomUUID(),
     title: "Social links profile",
     description:
       "This is a solution to the Social links profile challenge on Frontend Mentor.",
@@ -48,16 +68,6 @@ export const projects: Project[] = [
     image: "https://i.imgpeek.com/zC5dtDUkx_hh",
     githubUrl: "https://github.com/esrafil418/Social-links-profile",
     liveUrl: "https://social-links-profile-challenge.surge.sh/",
-  },
-  {
-    id: crypto.randomUUID(),
-    title: "Product preview card",
-    description:
-      "This is a solution to the Product preview card component challenge on Frontend Mentor.",
-    tags: ["frontend-mentor", "react.js"],
-    image: "https://i.imgpeek.com/v9bDhm7H9mX5",
-    githubUrl: "https://github.com/esrafil418/Product-preview-card",
-    liveUrl: "https://outgoing-behavior.surge.sh/",
   },
   {
     id: crypto.randomUUID(),
