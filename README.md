@@ -1,6 +1,6 @@
 # 🚀 Check out my projects
 
-**[View Live My Projects](https://your-portfolio-url.vercel.app)**
+**[View Live My Projects](https://all-projects-navy.vercel.app/)**
 
 ## Project Portfolio Showcase
 
