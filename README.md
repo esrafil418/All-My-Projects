@@ -1,4 +1,8 @@
-# Project Portfolio Showcase
+# 🚀 Check out my projects
+
+**[View Live My Projects](https://your-portfolio-url.vercel.app)**
+
+## Project Portfolio Showcase
 
 A modern, responsive portfolio website built with Next.js, Tailwind CSS v4, and shadcn/ui that showcases development projects with interactive filtering capabilities.
 
