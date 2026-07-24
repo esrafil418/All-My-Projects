@@ -51,6 +51,26 @@ export const projects: Project[] = [
   },
   {
     id: crypto.randomUUID(),
+    title: "Testimonials Grid Section",
+    description:
+      "This is a solution to the Testimonials grid section challenge on Frontend Mentor.",
+    tags: ["frontend-mentor", "react.js"],
+    image: "https://i.imgpeek.com/ynajzWwrS0wv",
+    githubUrl: "https://github.com/esrafil418/Testimonials-Grid-Section",
+    liveUrl: "https://testimonials-grid-section-v2.surge.sh/",
+  },
+  {
+    id: crypto.randomUUID(),
+    title: "Simple Feature Section",
+    description:
+      "This is a solution to the Simple Feature Section challenge on DevChallenges.io.",
+    tags: ["dev-challenges", "react.js"],
+    image: "https://i.imgpeek.com/OnogegiJQo1c",
+    githubUrl: "https://github.com/esrafil418/Simple-Feature-Section",
+    liveUrl: "https://simple-feature-section-challenge.surge.sh/",
+  },
+  {
+    id: crypto.randomUUID(),
     title: "Blog preview card",
     description:
       "This is my solution to the Blog preview card challenge on Frontend Mentor.",
@@ -174,11 +194,12 @@ export const projects: Project[] = [
 export const tags = [
   "All",
   "frontend-mentor",
-  "html-css",
+  "dev-challenges",
+  "full-stack",
   "react.js",
   "next.js",
-  "full-stack",
   "zustand",
   "material-ui",
   "tanstack",
+  "html-css",
 ];
