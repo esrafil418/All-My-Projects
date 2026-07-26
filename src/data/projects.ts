@@ -71,6 +71,36 @@ export const projects: Project[] = [
   },
   {
     id: crypto.randomUUID(),
+    title: "Time Tracking Dashboard",
+    description:
+      "This is a solution to the Time tracking dashboard challenge on Frontend Mentor.",
+    tags: ["frontend-mentor", "react.js"],
+    image: "https://i.imgpeek.com/aGPZD0ICWDnd",
+    githubUrl: "https://github.com/esrafil418/Time-Tracking-Dashboard",
+    liveUrl: "https://time-tracking-dashboard-v2.surge.sh/",
+  },
+  {
+    id: crypto.randomUUID(),
+    title: "Newsletter Sign-up Form",
+    description:
+      "This is a solution to the Newsletter sign-up form with success message challenge on Frontend Mentor.",
+    tags: ["frontend-mentor", "react.js"],
+    image: "https://i.imgpeek.com/SJyKJpK433qd",
+    githubUrl: "https://github.com/esrafil418/Newsletter-sign-up-form",
+    liveUrl: "https://newsletter-sign-up-form-v3.surge.sh/",
+  },
+  {
+    id: crypto.randomUUID(),
+    title: "Article preview component",
+    description:
+      "This is a solution to the Newsletter sign-up form with success message challenge on Frontend Mentor.",
+    tags: ["frontend-mentor", "react.js"],
+    image: "https://i.imgpeek.com/kTKi6ixKFIFQ",
+    githubUrl: "https://github.com/esrafil418/Article-Preview-Component",
+    liveUrl: "https://article-preview-component-v3.surge.sh/",
+  },
+  {
+    id: crypto.randomUUID(),
     title: "Blog preview card",
     description:
       "This is my solution to the Blog preview card challenge on Frontend Mentor.",
