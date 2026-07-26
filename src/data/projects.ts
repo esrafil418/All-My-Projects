@@ -183,7 +183,7 @@ export const projects: Project[] = [
     id: crypto.randomUUID(),
     title: "iSkilled",
     description:
-      "iSkilled is a modern marketplace web application built with the TanStack ecosystem (React Start, Router, Query)",
+      "iSkilled is a modern marketplace web application built with the TanStack ecosystem (Tanstack Start, Router, Query)",
     tags: ["tanstack"],
     image: "https://i.imgpeek.com/KkTL_AwHwJ5G",
     githubUrl: "https://github.com/esrafil418/iSkilled",
