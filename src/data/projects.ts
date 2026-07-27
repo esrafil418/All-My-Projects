@@ -31,13 +31,23 @@ export const projects: Project[] = [
   },
   {
     id: crypto.randomUUID(),
-    title: "Four card feature section",
+    title: "Time Tracking Dashboard",
     description:
-      "This is a solution to the Four card feature section challenge on Frontend Mentor.",
+      "This is a solution to the Time tracking dashboard challenge on Frontend Mentor.",
     tags: ["frontend-mentor", "react.js"],
-    image: "https://i.imgpeek.com/z598TA2MD-2N",
-    githubUrl: "https://github.com/esrafil418/Four-card-feature-section",
-    liveUrl: "https://four-card-feature-section-v2.surge.sh/",
+    image: "https://i.imgpeek.com/aGPZD0ICWDnd",
+    githubUrl: "https://github.com/esrafil418/Time-Tracking-Dashboard",
+    liveUrl: "https://time-tracking-dashboard-v2.surge.sh/",
+  },
+  {
+    id: crypto.randomUUID(),
+    title: "Tip calculator app",
+    description:
+      "This is a solution to the Tip calculator app challenge on Frontend Mentor.",
+    tags: ["frontend-mentor", "react.js"],
+    image: "https://i.imgpeek.com/Hix9jiadxnxo",
+    githubUrl: "https://github.com/esrafil418/Tip-calculator-app",
+    liveUrl: "https://tip-calculator-app-v3.surge.sh/",
   },
   {
     id: crypto.randomUUID(),
@@ -71,16 +81,6 @@ export const projects: Project[] = [
   },
   {
     id: crypto.randomUUID(),
-    title: "Time Tracking Dashboard",
-    description:
-      "This is a solution to the Time tracking dashboard challenge on Frontend Mentor.",
-    tags: ["frontend-mentor", "react.js"],
-    image: "https://i.imgpeek.com/aGPZD0ICWDnd",
-    githubUrl: "https://github.com/esrafil418/Time-Tracking-Dashboard",
-    liveUrl: "https://time-tracking-dashboard-v2.surge.sh/",
-  },
-  {
-    id: crypto.randomUUID(),
     title: "Newsletter Sign-up Form",
     description:
       "This is a solution to the Newsletter sign-up form with success message challenge on Frontend Mentor.",
@@ -101,11 +101,21 @@ export const projects: Project[] = [
   },
   {
     id: crypto.randomUUID(),
+    title: "Four card feature section",
+    description:
+      "This is a solution to the Four card feature section challenge on Frontend Mentor.",
+    tags: ["frontend-mentor", "react.js"],
+    image: "https://i.imgpeek.com/z598TA2MD-2N",
+    githubUrl: "https://github.com/esrafil418/Four-card-feature-section",
+    liveUrl: "https://four-card-feature-section-v2.surge.sh/",
+  },
+  {
+    id: crypto.randomUUID(),
     title: "Blog preview card",
     description:
       "This is my solution to the Blog preview card challenge on Frontend Mentor.",
     tags: ["frontend-mentor", "react.js"],
-    image: "https://i.imgpeek.com/0cC9wD3dNrO4",
+    image: "https://i.imgpeek.com/40FzD-XPBtSu",
     githubUrl: "https://github.com/esrafil418/Blog-preview-card",
     liveUrl: "https://my-blog-preview.surge.sh/",
   },
@@ -115,7 +125,7 @@ export const projects: Project[] = [
     description:
       "This is a solution to the Social links profile challenge on Frontend Mentor.",
     tags: ["frontend-mentor", "react.js"],
-    image: "https://i.imgpeek.com/zC5dtDUkx_hh",
+    image: "https://i.imgpeek.com/vfYWhHw16zRr",
     githubUrl: "https://github.com/esrafil418/Social-links-profile",
     liveUrl: "https://social-links-profile-challenge.surge.sh/",
   },
