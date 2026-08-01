@@ -1,8 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Emilys+Candy&family=Roboto+Slab:wght@100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
 @import "tailwindcss";
 @import "tw-animate-css";
 @import "shadcn/tailwind.css";
 
 @custom-variant dark (&:is(.dark *));
+
+html {
+  scroll-behavior: smooth;
+}
+
+.font-rubik {
+  font-family: "Rubik", sans-serif;
+}
+
+.font-archivo-black {
+  font-family: "Archivo Black", sans-serif;
+}
+
+.font-emilys-candy {
+  font-family: "Emilys Candy", cursive;
+}
+
+.font-roboto-slab {
+  font-family: "Roboto Slab", serif;
+}
 
 @theme {
   --color-background: hsl(var(--background));
