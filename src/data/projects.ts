@@ -20,7 +20,14 @@ export const projects: Project[] = [
     title: "Game Hub",
     description:
       "Game Hub is a full-stack e-commerce platform for purchasing video games.",
-    tags: ["full-stack"],
+    tags: [
+      "full-stack",
+      "react",
+      "typescript",
+      "shadcn",
+      "mongoose",
+      "express",
+    ],
     image: "https://i.imgpeek.com/OWaVxhEwHXpl",
     githubUrl: "https://github.com/esrafil418/Game-hub",
     liveUrl: "https://game-hub-mu-topaz-77.vercel.app/",
@@ -152,7 +159,7 @@ export const projects: Project[] = [
     title: "Blog-app",
     description:
       "A modern, responsive blog application built with React, TypeScript, and Material-UI (MUI).",
-    tags: ["material-ui"],
+    tags: ["react", "material-ui"],
     image: "https://i.imgpeek.com/y3FqfnZjFrqs",
     githubUrl: "https://github.com/esrafil418/Blog-app-with-MUI",
     liveUrl: "https://blog-app-with-mui.surge.sh/",
@@ -163,7 +170,7 @@ export const projects: Project[] = [
     title: "E-commerce-shop",
     description:
       "A simple E-commerce shopping app built with React, TypeScript, and Zustand for state management.",
-    tags: ["zustand"],
+    tags: ["react", "zustand"],
     image: "https://i.imgpeek.com/S26R7jaSq2Jq",
     githubUrl: "https://github.com/esrafil418/Ecommerce-shop-with-Zustand",
     liveUrl: "https://ecommerce-shopping-app.surge.sh/",

@@ -29,7 +29,7 @@ export function ProjectCard({ project }: ProjectCardProps) {
           />
         </div>
         <CardTitle>{project.title}</CardTitle>
-        <CardDescription className="text-sm">
+        <CardDescription className="text-sm line-clamp-2">
           {project.description}
         </CardDescription>
       </CardHeader>
@@ -48,7 +48,7 @@ export function ProjectCard({ project }: ProjectCardProps) {
             href={project.githubUrl}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center justify-center text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border border-input bg-background hover:bg-accent hover:text-accent-foreground h-9 rounded-md px-3 w-full sm:w-auto"
+            className="inline-flex items-center justify-center text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border border-input bg-background hover:bg-accent hover:text-accent-foreground h-9.5 rounded-md px-3 w-full sm:w-auto"
           >
             <GitPullRequestArrow className="mr-2 h-4 w-4" />
             Code
@@ -59,7 +59,7 @@ export function ProjectCard({ project }: ProjectCardProps) {
             href={project.liveUrl}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center justify-center text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-primary text-primary-foreground hover:bg-primary/90 h-9 rounded-md px-3 w-full sm:w-auto"
+            className="inline-flex items-center justify-center text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-primary border border-input text-primary-foreground hover:bg-primary/90 h-9 rounded-md px-3 w-full sm:w-auto"
           >
             <ExternalLink className="mr-2 h-4 w-4" />
             Live Demo
