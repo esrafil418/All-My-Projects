@@ -76,7 +76,10 @@ export function ProjectSection({ title, category }: Props) {
 
       <ProjectCarousel setApi={setEmblaApi}>
         {sectionProjects.map((project) => (
-          <div key={project.id} className="flex-[0_0_320px]">
+          <div
+            key={project.id}
+            className="flex-[0_0_75%] min-[420px]:flex-[0_0_60%] sm:flex-[0_0_50%] lg:flex-[0_0_33.333%] xl:flex-[0_0_25%]"
+          >
             <ProjectCard project={project} />
           </div>
         ))}

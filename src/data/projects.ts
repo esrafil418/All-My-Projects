@@ -34,6 +34,17 @@ export const projects: Project[] = [
     category: PROJECT_CATEGORIES.TOP,
   },
   {
+    id: "blog-dashboard-next-js",
+    title: "Blog Dashboard",
+    description:
+      "A modern blog management dashboard built with Next.js, TypeScript, TanStack Query, TanStack Table, shadcn/ui, Tailwind CSS, and React ecosystem tools.",
+    tags: ["next.js", "typescript", "shadcn", "tanstack-query", "recharts"],
+    image: "https://i.imgpeek.com/Vh5nKAp8_7MY",
+    githubUrl: "https://github.com/esrafil418/Blog-Dashboard",
+    liveUrl: "https://blog-dashboard-nine-ivory.vercel.app/",
+    category: PROJECT_CATEGORIES.TOP,
+  },
+  {
     id: "product-preview-card",
     title: "Product preview card",
     description:
@@ -97,7 +108,7 @@ export const projects: Project[] = [
     image: "https://i.imgpeek.com/OnogegiJQo1c",
     githubUrl: "https://github.com/esrafil418/Simple-Feature-Section",
     liveUrl: "https://simple-feature-section-challenge.surge.sh/",
-    category: PROJECT_CATEGORIES.DEV_CHALLENGES,
+    category: PROJECT_CATEGORIES.REACT_MINI,
   },
   {
     id: "newsletter-sign-up-form",
@@ -268,13 +279,16 @@ export const projects: Project[] = [
 
 export const tags = [
   "All",
+  "full-stack",
   "frontend-mentor",
   "dev-challenges",
-  "full-stack",
   "react.js",
   "next.js",
-  "zustand",
   "material-ui",
+  "zustand",
   "tanstack",
+  "tanstack-query",
+  "shadcn",
+  "recharts",
   "html-css",
 ];

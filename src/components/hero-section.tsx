@@ -2,6 +2,7 @@
 
 import { Button } from "@/components/ui/button";
 import { motion } from "motion/react";
+import Link from "next/link";
 import { useRouter } from "next/navigation";
 
 export function HeroSection() {
@@ -40,14 +41,8 @@ export function HeroSection() {
           </div>
 
           <div className="flex flex-col gap-3 sm:flex-row">
-            <Button
-              size="lg"
-              variant="outline"
-              onClick={() => router.push("/projects")}
-            >
-              <a target="_blank" rel="noopener noreferrer">
-                All Projects
-              </a>
+            <Button variant="outline">
+              <Link href="/projects">All Projects</Link>
             </Button>
             <Button size="lg" variant="outline">
               <a

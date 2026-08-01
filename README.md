@@ -8,19 +8,27 @@ A modern, responsive portfolio website built with Next.js, Tailwind CSS v4, and 
 
 ## 🚀 Features
 
-- **Interactive Filtering** - Filter projects by technology tags (Next.js, React.js, HTML/CSS, MUI, Chakra UI)
-- **Responsive Design** - Fully responsive layout that works on desktop, tablet, and mobile devices
-- **Modern UI Components** - Built with shadcn/ui for a clean, accessible interface
-- **TypeScript Support** - Full type safety with TypeScript
-- **Tailwind CSS v4** - Latest version with new CSS-first configuration
-- **Image Optimization** - Automatic image optimization with Next.js Image component
-- **Dark Mode Ready** - Built with CSS variables for easy dark mode implementation
+- **Categorized Project Sections** – Browse projects grouped into categories such as Top Projects, Frontend Mentor Challenges, Mini Projects, and more.
+- **Interactive Carousels** – Smooth horizontal project carousels powered by Embla Carousel.
+- **Category Pages** – View all projects within a specific category.
+- **All Projects Page** – Explore every project in one place.
+- **Tag Filtering** – Instantly filter projects by technology or category.
+- **Pagination** – Browse projects with clean client-side pagination (12 projects per page).
+- **Responsive Design** – Optimized for desktop, tablet, and mobile devices.
+- **Modern UI** – Built with reusable shadcn/ui components.
+- **Page Animations** – Smooth transitions and entrance animations using Motion.
+- **Optimized Images** – Fast image loading with the Next.js Image component.
+- **Sticky Navigation** – Simple, modern navigation for an improved browsing experience.
+- **TypeScript** – Strong typing throughout the project.
 
 ## 🛠️ Tech Stack
 
-- **Framework:** [Next.js 16](https://nextjs.org/)
-- **Styling:** [Tailwind CSS v4](https://tailwindcss.com/)
-- **UI Components:** [shadcn/ui](https://ui.shadcn.com/)
-- **Language:** [TypeScript](https://www.typescriptlang.org/)
-- **Icons:** [Lucide React](https://lucide.dev/)
+- **Framework:** Next.js 16
+- **Library:** React 19
+- **Language:** TypeScript
+- **Styling:** Tailwind CSS v4
+- **UI Components:** shadcn/ui
+- **Animations:** Motion
+- **Carousel:** Embla Carousel
+- **Icons:** Lucide React
 - **Utilities:** clsx, tailwind-merge, class-variance-authority
