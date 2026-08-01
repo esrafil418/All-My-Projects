@@ -41,14 +41,20 @@ export function HeroSection() {
           </div>
 
           <div className="flex flex-col gap-3 sm:flex-row">
-            <Button variant="outline">
-              <Link href="/projects">All Projects</Link>
+            <Button size="lg" variant="outline">
+              <Link
+                href="/projects"
+                className="w-full h-full items-center flex justify-center"
+              >
+                All Projects
+              </Link>
             </Button>
             <Button size="lg" variant="outline">
               <a
                 href="https://github.com/esrafil418"
                 target="_blank"
                 rel="noopener noreferrer"
+                className="w-full h-full items-center flex justify-center"
               >
                 Github
               </a>
@@ -58,6 +64,7 @@ export function HeroSection() {
               <a
                 target="_blank"
                 href="https://www.linkedin.com/in/esrafil-dev-2249b019a/"
+                className="w-full h-full items-center flex justify-center"
               >
                 LinkedIn
               </a>
@@ -67,6 +74,7 @@ export function HeroSection() {
               <a
                 target="_blank"
                 href="https://www.frontendmentor.io/profile/esrafil418"
+                className="w-full h-full items-center flex justify-center"
               >
                 Frontend Mentor
               </a>
