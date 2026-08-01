@@ -1,7 +1,7 @@
 import { Project } from "@/data/projects";
 import { ExternalLink, GitPullRequestArrow } from "lucide-react";
 import Image from "next/image";
-import { Badge } from "./ui/badge";
+import { Badge } from "../ui/badge";
 import {
   Card,
   CardContent,
@@ -9,7 +9,7 @@ import {
   CardFooter,
   CardHeader,
   CardTitle,
-} from "./ui/card";
+} from "../ui/card";
 
 interface ProjectCardProps {
   project: Project;
