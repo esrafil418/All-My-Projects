@@ -16,6 +16,28 @@ export interface Project {
 
 export const projects: Project[] = [
   {
+    id: "e-commerce-shop-dev",
+    title: "E-Commerce Shop ➜ (Developing...)",
+    description:
+      "🚧 This project is currently under development. The goal of this project is to build a modern, scalable e-commerce platform using current frontend technologies and professional development practices.",
+    tags: ["next.js", "typescript", "shadcn", "tanstack-query", "zustand "],
+    image: "https://i.imgpeek.com/dTm8Qs-aZAmu",
+    githubUrl: "https://github.com/esrafil418/E-commerce-Shop#e-commerce-shop",
+    liveUrl: "https://github.com/esrafil418/E-commerce-Shop#e-commerce-shop",
+    category: PROJECT_CATEGORIES.TOP,
+  },
+  {
+    id: "blog-dashboard-next-js",
+    title: "Blog Dashboard",
+    description:
+      "A modern blog management dashboard built with Next.js, TypeScript, TanStack Query, TanStack Table, shadcn/ui, Tailwind CSS, and React ecosystem tools.",
+    tags: ["next.js", "typescript", "shadcn", "tanstack-query", "recharts"],
+    image: "https://i.imgpeek.com/Vh5nKAp8_7MY",
+    githubUrl: "https://github.com/esrafil418/Blog-Dashboard",
+    liveUrl: "https://blog-dashboard-nine-ivory.vercel.app/",
+    category: PROJECT_CATEGORIES.TOP,
+  },
+  {
     id: "game-hub",
     title: "Game Hub",
     description:
@@ -31,17 +53,6 @@ export const projects: Project[] = [
     image: "https://i.imgpeek.com/OWaVxhEwHXpl",
     githubUrl: "https://github.com/esrafil418/Game-hub",
     liveUrl: "https://game-hub-mu-topaz-77.vercel.app/",
-    category: PROJECT_CATEGORIES.TOP,
-  },
-  {
-    id: "blog-dashboard-next-js",
-    title: "Blog Dashboard",
-    description:
-      "A modern blog management dashboard built with Next.js, TypeScript, TanStack Query, TanStack Table, shadcn/ui, Tailwind CSS, and React ecosystem tools.",
-    tags: ["next.js", "typescript", "shadcn", "tanstack-query", "recharts"],
-    image: "https://i.imgpeek.com/Vh5nKAp8_7MY",
-    githubUrl: "https://github.com/esrafil418/Blog-Dashboard",
-    liveUrl: "https://blog-dashboard-nine-ivory.vercel.app/",
     category: PROJECT_CATEGORIES.TOP,
   },
   {
