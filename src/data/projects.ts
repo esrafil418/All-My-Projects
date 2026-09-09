@@ -286,8 +286,9 @@ export const projects: Project[] = [
     tags: ["html-css"],
     image: "https://i.imgpeek.com/eiS1g6cR-DmL",
     githubUrl: "https://github.com/esrafil418/Death-Stranding",
-    liveUrl: "https://github.com/esrafil418/Death-Stranding",
+    liveUrl: "https://death-stranding.vercel.app/",
     category: PROJECT_CATEGORIES.HTML_CSS,
+    isPrivate: true,
   },
 ];
 
