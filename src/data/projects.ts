@@ -12,6 +12,8 @@ export interface Project {
   image: string;
   githubUrl: string;
   liveUrl: string;
+  /** Set to true to disable the Code button (private repository). */
+  isPrivate?: boolean;
 }
 
 export const projects: Project[] = [
@@ -24,6 +26,7 @@ export const projects: Project[] = [
     image: "https://i.imgpeek.com/dTm8Qs-aZAmu",
     githubUrl: "https://github.com/esrafil418/E-commerce-Shop#e-commerce-shop",
     liveUrl: "https://github.com/esrafil418/E-commerce-Shop#e-commerce-shop",
+    isPrivate: true,
     category: PROJECT_CATEGORIES.TOP,
   },
   {
