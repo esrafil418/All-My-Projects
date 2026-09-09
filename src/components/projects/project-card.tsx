@@ -1,5 +1,5 @@
 import { Project } from "@/data/projects";
-import { ExternalLink, GitPullRequestArrow } from "lucide-react";
+import { ExternalLink, GitPullRequestArrow, Lock } from "lucide-react";
 import Image from "next/image";
 import { Badge } from "../ui/badge";
 import {
@@ -43,16 +43,37 @@ export function ProjectCard({ project }: ProjectCardProps) {
         </div>
       </CardContent>
       <CardFooter className="flex flex-col sm:flex-row gap-2">
-        {project.githubUrl && (
-          <a
-            href={project.githubUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center justify-center text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border border-input bg-background hover:bg-accent hover:text-accent-foreground h-9.5 rounded-md px-3 w-full sm:w-auto"
-          >
-            <GitPullRequestArrow className="mr-2 h-4 w-4" />
-            Code
-          </a>
+        {project.isPrivate ? (
+          <div className="relative w-full sm:w-auto group/private">
+            <button
+              type="button"
+              aria-disabled="true"
+              aria-describedby={`${project.id}-private-repo`}
+              className="inline-flex items-center justify-center text-sm font-medium border border-dashed border-input bg-muted/60 text-muted-foreground h-9.5 rounded-md px-3 w-full sm:w-auto cursor-not-allowed opacity-70"
+            >
+              <Lock className="mr-2 h-4 w-4" />
+              Code
+            </button>
+            <span
+              id={`${project.id}-private-repo`}
+              role="tooltip"
+              className="pointer-events-none absolute bottom-full left-1/2 z-20 mb-2 -translate-x-1/2 whitespace-nowrap rounded-md bg-foreground px-2.5 py-1 text-xs font-medium text-background opacity-0 shadow-md transition-opacity group-hover/private:opacity-100 group-focus-within/private:opacity-100"
+            >
+              Repo is private
+            </span>
+          </div>
+        ) : (
+          project.githubUrl && (
+            <a
+              href={project.githubUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center justify-center text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border border-input bg-background hover:bg-accent hover:text-accent-foreground h-9.5 rounded-md px-3 w-full sm:w-auto"
+            >
+              <GitPullRequestArrow className="mr-2 h-4 w-4" />
+              Code
+            </a>
+          )
         )}
         {project.liveUrl && (
           <a
