@@ -185,9 +185,9 @@ export const projects: Project[] = [
     description:
       "A modern, responsive blog application built with React, TypeScript, and Material-UI (MUI).",
     tags: ["react", "material-ui"],
-    image: "https://i.imgpeek.com/y3FqfnZjFrqs",
+    image: "https://i.imgpeek.com/QRA9QpHzoZnO",
     githubUrl: "https://github.com/esrafil418/Blog-app-with-MUI",
-    liveUrl: "https://blog-app-with-mui.surge.sh/",
+    liveUrl: "https://blog-mui-future-ray.surge.sh/",
     category: PROJECT_CATEGORIES.REACT_MINI,
   },
   {
