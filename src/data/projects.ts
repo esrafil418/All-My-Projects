@@ -114,17 +114,6 @@ export const projects: Project[] = [
     category: PROJECT_CATEGORIES.FRONTEND_MENTOR,
   },
   {
-    id: "simple-feature-section",
-    title: "Simple Feature Section",
-    description:
-      "This is a solution to the Simple Feature Section challenge on DevChallenges.io.",
-    tags: ["dev-challenges", "react.js"],
-    image: "https://i.imgpeek.com/OnogegiJQo1c",
-    githubUrl: "https://github.com/esrafil418/Simple-Feature-Section",
-    liveUrl: "https://simple-feature-section-challenge.surge.sh/",
-    category: PROJECT_CATEGORIES.REACT_MINI,
-  },
-  {
     id: "newsletter-sign-up-form",
     title: "Newsletter Sign-up Form",
     description:
@@ -185,7 +174,7 @@ export const projects: Project[] = [
     description:
       "A modern, responsive blog application built with React, TypeScript, and Material-UI (MUI).",
     tags: ["react", "material-ui"],
-    image: "https://i.imgpeek.com/QRA9QpHzoZnO",
+    image: "https://i.imgpeek.com/3mSawwlUCVQX",
     githubUrl: "https://github.com/esrafil418/Blog-app-with-MUI",
     liveUrl: "https://blog-mui-future-ray.surge.sh/",
     category: PROJECT_CATEGORIES.REACT_MINI,
@@ -196,9 +185,9 @@ export const projects: Project[] = [
     description:
       "A simple E-commerce shopping app built with React, TypeScript, and Zustand for state management.",
     tags: ["react", "zustand"],
-    image: "https://i.imgpeek.com/S26R7jaSq2Jq",
+    image: "https://i.imgpeek.com/J-7VuHJeFDOc",
     githubUrl: "https://github.com/esrafil418/Ecommerce-shop-with-Zustand",
-    liveUrl: "https://ecommerce-shopping-app.surge.sh/",
+    liveUrl: "https://ecommerce-shop-teeny-tiny-pocket.surge.sh/",
     category: PROJECT_CATEGORIES.REACT_MINI,
   },
   {
@@ -224,14 +213,25 @@ export const projects: Project[] = [
     category: PROJECT_CATEGORIES.NEXT_JS,
   },
   {
-    id: "memory-card-game",
-    title: "Memory Card Game",
+    id: "squid-game-cms",
+    title: "Squid Game CMS",
     description:
-      "A fun and interactive memory card game built with React, TypeScript, and Tailwind CSS. Test your memory by matching pairs of emoji cards!",
+      "A simple Content Management System (CMS) panel with a design inspired by the Squid Game series. This project is built for managing users, products, transactions, and viewing sales reports.",
     tags: ["react.js"],
-    image: "https://i.imgpeek.com/_xnMwSc8F6hF",
-    githubUrl: "https://github.com/esrafil418/Memory-game",
-    liveUrl: "https://memory-game-eight-psi.vercel.app/",
+    image: "https://i.imgpeek.com/xLjros5AFV0i",
+    githubUrl: "https://github.com/esrafil418/Squid-Game-CMS",
+    liveUrl: "https://squid-game-cms.vercel.app/",
+    category: PROJECT_CATEGORIES.REACT_MINI,
+  },
+  {
+    id: "simple-feature-section",
+    title: "Simple Feature Section",
+    description:
+      "This is a solution to the Simple Feature Section challenge on DevChallenges.io.",
+    tags: ["dev-challenges", "react.js"],
+    image: "https://i.imgpeek.com/OnogegiJQo1c",
+    githubUrl: "https://github.com/esrafil418/Simple-Feature-Section",
+    liveUrl: "https://simple-feature-section-challenge.surge.sh/",
     category: PROJECT_CATEGORIES.REACT_MINI,
   },
   {
@@ -246,6 +246,17 @@ export const projects: Project[] = [
     category: PROJECT_CATEGORIES.REACT_MINI,
   },
   {
+    id: "memory-card-game",
+    title: "Memory Card Game",
+    description:
+      "A fun and interactive memory card game built with React, TypeScript, and Tailwind CSS. Test your memory by matching pairs of emoji cards!",
+    tags: ["react.js"],
+    image: "https://i.imgpeek.com/_xnMwSc8F6hF",
+    githubUrl: "https://github.com/esrafil418/Memory-game",
+    liveUrl: "https://memory-game-eight-psi.vercel.app/",
+    category: PROJECT_CATEGORIES.REACT_MINI,
+  },
+  {
     id: "i-skilled",
     title: "iSkilled",
     description:
@@ -255,17 +266,6 @@ export const projects: Project[] = [
     githubUrl: "https://github.com/esrafil418/iSkilled",
     liveUrl: "https://github.com/esrafil418/iSkilled",
     category: PROJECT_CATEGORIES.TANSTACK,
-  },
-  {
-    id: "squid-game-cms",
-    title: "Squid Game CMS",
-    description:
-      "A simple Content Management System (CMS) panel with a design inspired by the Squid Game series. This project is built for managing users, products, transactions, and viewing sales reports.",
-    tags: ["react.js"],
-    image: "https://i.imgpeek.com/M9CsE0z5QF4q",
-    githubUrl: "https://github.com/esrafil418/Squid-Game-CMS",
-    liveUrl: "https://squid-game-cms.vercel.app/",
-    category: PROJECT_CATEGORIES.REACT_MINI,
   },
   {
     id: "game-shop",
