@@ -294,20 +294,30 @@ export const projects: Project[] = [
 export const tags = [
   "All",
   "full-stack",
+
+  // Challenges
   "frontend-mentor",
   "dev-challenges",
+
+  // tech
   "react.js",
   "next.js",
-  "material-ui",
-  "zustand",
   "tanstack",
-  "tanstack-query",
-  "recharts",
   "html-css",
+
+  // state managments
+  "zustand",
+  "tanstack-query",
+
+  // Libraries
+  "recharts",
+
   // UI
+  "material-ui",
   "shadcn",
   "bootstrap",
   "tailwind",
+  
   // database
   "supabase",
 ];
