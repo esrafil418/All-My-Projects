@@ -174,7 +174,7 @@ export const projects: Project[] = [
     description:
       "A modern, responsive blog application built with React, TypeScript, and Material-UI (MUI).",
     tags: ["react", "material-ui"],
-    image: "https://i.imgpeek.com/3mSawwlUCVQX",
+    image: "https://i.imgpeek.com/FNvCK0IR3g4z",
     githubUrl: "https://github.com/esrafil418/Blog-app-with-MUI",
     liveUrl: "https://blog-mui-future-ray.surge.sh/",
     category: PROJECT_CATEGORIES.REACT_MINI,
@@ -185,21 +185,10 @@ export const projects: Project[] = [
     description:
       "A simple E-commerce shopping app built with React, TypeScript, and Zustand for state management.",
     tags: ["react", "zustand"],
-    image: "https://i.imgpeek.com/J-7VuHJeFDOc",
+    image: "https://i.imgpeek.com/4p3Rt3oN6aJu",
     githubUrl: "https://github.com/esrafil418/Ecommerce-shop-with-Zustand",
     liveUrl: "https://ecommerce-shop-teeny-tiny-pocket.surge.sh/",
     category: PROJECT_CATEGORIES.REACT_MINI,
-  },
-  {
-    id: "game-verse",
-    title: "Game-Verse",
-    description:
-      "A modern, responsive gaming website showcasing game genres, features, and customer testimonials. Built with HTML, CSS, and JavaScript.",
-    tags: ["html-css"],
-    image: "https://i.imgpeek.com/75ToeNedcbJO",
-    githubUrl: "https://github.com/esrafil418/HTML-CSS-Landing-Page",
-    liveUrl: "https://esrafil418.github.io/HTML-CSS-Landing-Page",
-    category: PROJECT_CATEGORIES.HTML_CSS,
   },
   {
     id: "my-portfolio",
@@ -217,7 +206,7 @@ export const projects: Project[] = [
     title: "Squid Game CMS",
     description:
       "A simple Content Management System (CMS) panel with a design inspired by the Squid Game series. This project is built for managing users, products, transactions, and viewing sales reports.",
-    tags: ["react.js"],
+    tags: ["react.js", "mui", "recharts"],
     image: "https://i.imgpeek.com/xLjros5AFV0i",
     githubUrl: "https://github.com/esrafil418/Squid-Game-CMS",
     liveUrl: "https://squid-game-cms.vercel.app/",
@@ -246,17 +235,6 @@ export const projects: Project[] = [
     category: PROJECT_CATEGORIES.REACT_MINI,
   },
   {
-    id: "memory-card-game",
-    title: "Memory Card Game",
-    description:
-      "A fun and interactive memory card game built with React, TypeScript, and Tailwind CSS. Test your memory by matching pairs of emoji cards!",
-    tags: ["react.js"],
-    image: "https://i.imgpeek.com/_xnMwSc8F6hF",
-    githubUrl: "https://github.com/esrafil418/Memory-game",
-    liveUrl: "https://memory-game-eight-psi.vercel.app/",
-    category: PROJECT_CATEGORIES.REACT_MINI,
-  },
-  {
     id: "i-skilled",
     title: "iSkilled",
     description:
@@ -268,14 +246,14 @@ export const projects: Project[] = [
     category: PROJECT_CATEGORIES.TANSTACK,
   },
   {
-    id: "game-shop",
-    title: "Game-Shop",
+    id: "nexora-game-shop",
+    title: "Nexora Game Shop",
     description:
-      "A simple and engaging video game store! Focused on a dynamic shopping cart, search, and item management. Built with pure HTML, CSS, and JavaScript (no frameworks).",
-    tags: ["html-css"],
-    image: "https://i.imgpeek.com/QvOZpTAC2AtV",
+      "Nexora is a multi-page game shop built with vanilla HTML, CSS, and JavaScript — night-mode UI, searchable catalog with pagination, deals, and a local cart.",
+    tags: ["html-css", "javascript"],
+    image: "https://i.imgpeek.com/AA1GH0YXP4Tl",
     githubUrl: "https://github.com/esrafil418/GameVerse",
-    liveUrl: "https://esrafil418.github.io/GameVerse/",
+    liveUrl: "https://game-shop-sigma-five.vercel.app/",
     category: PROJECT_CATEGORIES.HTML_CSS,
   },
   {
@@ -283,12 +261,22 @@ export const projects: Project[] = [
     title: "Death Stranding Landing Page",
     description:
       "A modern, fully responsive static landing page inspired by the Death Stranding promotional websites. This project showcases a clean and adaptive layout built with HTML5 and CSS3, optimized for mobile, tablet, and desktop screens.",
-    tags: ["html-css"],
-    image: "https://i.imgpeek.com/eiS1g6cR-DmL",
+    tags: ["html-css", "javascript"],
+    image: "https://i.imgpeek.com/2y55g2mB4Umh",
     githubUrl: "https://github.com/esrafil418/Death-Stranding",
     liveUrl: "https://death-stranding.vercel.app/",
     category: PROJECT_CATEGORIES.HTML_CSS,
-    isPrivate: true,
+  },
+    {
+    id: "VELORA-landing-page",
+    title: "VELORA Landing Page",
+    description:
+      "A modern, fully responsive static landing page inspired by the VELORA promotional websites. This project showcases a clean and adaptive layout built with HTML5 and CSS3, optimized for mobile, tablet, and desktop screens.",
+    tags: ["html-css", "javascript"],
+    image: "https://i.imgpeek.com/xOlZap7uP1Lt",
+    githubUrl: "https://github.com/esrafil418/HTML-CSS-Landing-Page",
+    liveUrl: "https://hct-landing-page.vercel.app/",
+    category: PROJECT_CATEGORIES.HTML_CSS,
   },
 ];
 
@@ -306,4 +294,5 @@ export const tags = [
   "shadcn",
   "recharts",
   "html-css",
+  "bootstrap",
 ];
