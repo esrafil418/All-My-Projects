@@ -18,15 +18,14 @@ export interface Project {
 
 export const projects: Project[] = [
   {
-    id: "e-commerce-shop-dev",
-    title: "E-Commerce Shop ➜ (Developing...)",
+    id: "verve-shop-e-commerce-shop-dev",
+    title: "Verve Shop",
     description:
-      "🚧 This project is currently under development. The goal of this project is to build a modern, scalable e-commerce platform using current frontend technologies and professional development practices.",
+      "A motion-first e-commerce shop built for the modern web. Curated products, a bespoke accessible design system, and smooth, theme-aware interactions — engineered with Next.js 16, React 19, TypeScript, and Tailwind CSS v4 for performance and scalability.",
     tags: ["next.js", "typescript", "shadcn", "tanstack-query", "zustand "],
     image: "https://i.imgpeek.com/dTm8Qs-aZAmu",
-    githubUrl: "https://github.com/esrafil418/E-commerce-Shop#e-commerce-shop",
-    liveUrl: "https://github.com/esrafil418/E-commerce-Shop#e-commerce-shop",
-    isPrivate: true,
+    githubUrl: "https://github.com/esrafil418/Verve#e-commerce-shop",
+    liveUrl: "",
     category: PROJECT_CATEGORIES.TOP,
   },
   {
@@ -169,24 +168,24 @@ export const projects: Project[] = [
     category: PROJECT_CATEGORIES.FRONTEND_MENTOR,
   },
   {
-    id: "blog-app",
-    title: "Blog-app",
+    id: "lumen",
+    title: "Lumen",
     description:
       "A modern, responsive blog application built with React, TypeScript, and Material-UI (MUI).",
     tags: ["react", "material-ui"],
     image: "https://i.imgpeek.com/FNvCK0IR3g4z",
-    githubUrl: "https://github.com/esrafil418/Blog-app-with-MUI",
+    githubUrl: "https://github.com/esrafil418/Lumen",
     liveUrl: "https://blog-mui-future-ray.surge.sh/",
     category: PROJECT_CATEGORIES.REACT_MINI,
   },
   {
-    id: "e-commerce-shop",
-    title: "E-commerce-shop",
+    id: "aurum",
+    title: "Aurum",
     description:
       "A simple E-commerce shopping app built with React, TypeScript, and Zustand for state management.",
     tags: ["react", "zustand"],
     image: "https://i.imgpeek.com/4p3Rt3oN6aJu",
-    githubUrl: "https://github.com/esrafil418/Ecommerce-shop-with-Zustand",
+    githubUrl: "https://github.com/esrafil418/Aurum",
     liveUrl: "https://ecommerce-shop-teeny-tiny-pocket.surge.sh/",
     category: PROJECT_CATEGORIES.REACT_MINI,
   },
@@ -224,6 +223,18 @@ export const projects: Project[] = [
     category: PROJECT_CATEGORIES.REACT_MINI,
   },
   {
+    id: "cadenza-game",
+    title: "Cadenza Game",
+    description:
+      "An interactive, real-time guessing game built with Next.js, Tailwind CSS, and Supabase. Players test their knowledge of high-end shoes and luxury bags across multiple categories while tracking their live score, daily streaks, and global ranking. Features a sleek, dark-mode UI, real-time leaderboard updates, and a robust admin panel for content management.",
+    tags: ["next.js", "tailwind", "supabase"],
+    image: "https://i.imgpeek.com/hlh0YeERqIoa",
+    githubUrl: "https://github.com/esrafil418/cadenza-game",
+    isPrivate: true,
+    liveUrl: "https://cadenza-game.vercel.app/",
+    category: PROJECT_CATEGORIES.REACT_MINI,
+  },
+  {
     id: "i-habit",
     title: "iHabit",
     description:
@@ -252,7 +263,7 @@ export const projects: Project[] = [
       "Nexora is a multi-page game shop built with vanilla HTML, CSS, and JavaScript — night-mode UI, searchable catalog with pagination, deals, and a local cart.",
     tags: ["html-css", "javascript"],
     image: "https://i.imgpeek.com/AA1GH0YXP4Tl",
-    githubUrl: "https://github.com/esrafil418/GameVerse",
+    githubUrl: "https://github.com/esrafil418/Nexora-Game-Shop",
     liveUrl: "https://game-shop-sigma-five.vercel.app/",
     category: PROJECT_CATEGORIES.HTML_CSS,
   },
@@ -267,14 +278,14 @@ export const projects: Project[] = [
     liveUrl: "https://death-stranding.vercel.app/",
     category: PROJECT_CATEGORIES.HTML_CSS,
   },
-    {
+  {
     id: "VELORA-landing-page",
     title: "VELORA Landing Page",
     description:
       "A modern, fully responsive static landing page inspired by the VELORA promotional websites. This project showcases a clean and adaptive layout built with HTML5 and CSS3, optimized for mobile, tablet, and desktop screens.",
     tags: ["html-css", "javascript"],
     image: "https://i.imgpeek.com/xOlZap7uP1Lt",
-    githubUrl: "https://github.com/esrafil418/HTML-CSS-Landing-Page",
+    githubUrl: "https://github.com/esrafil418/VELORA",
     liveUrl: "https://hct-landing-page.vercel.app/",
     category: PROJECT_CATEGORIES.HTML_CSS,
   },
@@ -283,16 +294,30 @@ export const projects: Project[] = [
 export const tags = [
   "All",
   "full-stack",
+
+  // Challenges
   "frontend-mentor",
   "dev-challenges",
+
+  // tech
   "react.js",
   "next.js",
-  "material-ui",
-  "zustand",
   "tanstack",
-  "tanstack-query",
-  "shadcn",
-  "recharts",
   "html-css",
+
+  // state managments
+  "zustand",
+  "tanstack-query",
+
+  // Libraries
+  "recharts",
+
+  // UI
+  "material-ui",
+  "shadcn",
   "bootstrap",
+  "tailwind",
+  
+  // database
+  "supabase",
 ];
