@@ -25,7 +25,7 @@ export const projects: Project[] = [
     tags: ["next.js", "typescript", "shadcn", "tanstack-query", "zustand "],
     image: "https://i.imgpeek.com/dTm8Qs-aZAmu",
     githubUrl: "https://github.com/esrafil418/Verve#e-commerce-shop",
-    liveUrl: "",
+    liveUrl: "https://verve-one-pied.vercel.app/",
     category: PROJECT_CATEGORIES.TOP,
   },
   {
