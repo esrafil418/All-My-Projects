@@ -229,7 +229,7 @@ export const projects: Project[] = [
       "An interactive, real-time guessing game built with Next.js, Tailwind CSS, and Supabase. Players test their knowledge of high-end shoes and luxury bags across multiple categories while tracking their live score, daily streaks, and global ranking. Features a sleek, dark-mode UI, real-time leaderboard updates, and a robust admin panel for content management.",
     tags: ["next.js", "tailwind", "supabase"],
     image: "https://i.imgpeek.com/hlh0YeERqIoa",
-    githubUrl: "https://github.com/esrafil418/cadenza-game",
+    githubUrl: "",
     isPrivate: true,
     liveUrl: "https://cadenza-game.vercel.app/",
     category: PROJECT_CATEGORIES.REACT_MINI,
@@ -289,6 +289,56 @@ export const projects: Project[] = [
     liveUrl: "https://hct-landing-page.vercel.app/",
     category: PROJECT_CATEGORIES.HTML_CSS,
   },
+
+  //! Guess game
+  {
+    id: "art-guess",
+    title: "Art Guess",
+    description:
+      "Guess the paintings and see how many artists you really know. Every painting holds a secret.",
+    tags: ["next.js", "tailwind", "supabase"],
+    image: "https://i.imgpeek.com/6-gtzydH3BXo",
+    githubUrl: "",
+    liveUrl: "https://art-guess-one.vercel.app/",
+    isPrivate: true,
+    category: PROJECT_CATEGORIES.GUESS_GAMES,
+  },
+  {
+    id: "sound-guess",
+    title: "Sound Guess",
+    description:
+      "Guess the soundtrack. A melody plays — name the movie, series, or game it belongs to.",
+    tags: ["next.js", "tailwind", "supabase"],
+    image: "https://i.imgpeek.com/t07UgaqI3Kt3",
+    githubUrl: "",
+    liveUrl: "https://sound-guess.vercel.app/",
+    isPrivate: true,
+    category: PROJECT_CATEGORIES.GUESS_GAMES,
+  },
+  {
+    id: "shot-guess",
+    title: "Shot Guess",
+    description:
+      "Guess the Shots. A frame appears — name the movie, series, or game it belongs to.",
+    tags: ["next.js", "tailwind", "supabase"],
+    image: "https://i.imgpeek.com/cbMGAbu-fDLB",
+    githubUrl: "",
+    liveUrl: "https://shot-guess.vercel.app/",
+    isPrivate: true,
+    category: PROJECT_CATEGORIES.GUESS_GAMES,
+  },
+  {
+    id: "star-guess",
+    title: "Star Guess",
+    description:
+      "Guess the name and see how many faces you really know. Every face holds a story.",
+    tags: ["next.js", "tailwind", "supabase"],
+    image: "https://i.imgpeek.com/7ZHeIoeZokA-",
+    githubUrl: "",
+    liveUrl: "",
+    isPrivate: true,
+    category: PROJECT_CATEGORIES.GUESS_GAMES,
+  },
 ];
 
 export const tags = [
@@ -317,7 +367,7 @@ export const tags = [
   "shadcn",
   "bootstrap",
   "tailwind",
-  
+
   // database
   "supabase",
 ];
