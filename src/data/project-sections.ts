@@ -14,6 +14,10 @@ export const projectSections = [
     category: PROJECT_CATEGORIES.REACT_MINI,
   },
   {
+    title: "Guess Games",
+    category: PROJECT_CATEGORIES.GUESS_GAMES,
+  },
+  {
     title: "HTML/CSS Projects",
     category: PROJECT_CATEGORIES.HTML_CSS,
   },

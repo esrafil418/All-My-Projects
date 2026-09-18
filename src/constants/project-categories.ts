@@ -3,6 +3,7 @@ export const PROJECT_CATEGORIES = {
   FRONTEND_MENTOR: "frontend-mentor",
   DEV_CHALLENGES: "dev-challenges",
   REACT_MINI: "react-mini-projects",
+  GUESS_GAMES: "guess-games",
   HTML_CSS: "html-css",
   NEXT_JS: "next-js",
   TANSTACK: "tanstack",
