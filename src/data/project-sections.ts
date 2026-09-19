@@ -10,7 +10,7 @@ export const projectSections = [
     category: PROJECT_CATEGORIES.FRONTEND_MENTOR,
   },
   {
-    title: "React Mini Projects",
+    title: "React Projects",
     category: PROJECT_CATEGORIES.REACT_MINI,
   },
   {
@@ -20,5 +20,9 @@ export const projectSections = [
   {
     title: "HTML/CSS Projects",
     category: PROJECT_CATEGORIES.HTML_CSS,
+  },
+  {
+    title: "Dev Challenges",
+    category: PROJECT_CATEGORIES.DEV_CHALLENGES,
   },
 ];

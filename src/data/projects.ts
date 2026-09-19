@@ -40,24 +40,6 @@ export const projects: Project[] = [
     category: PROJECT_CATEGORIES.TOP,
   },
   {
-    id: "game-hub",
-    title: "Game Hub",
-    description:
-      "Game Hub is a full-stack e-commerce platform for purchasing video games.",
-    tags: [
-      "full-stack",
-      "react",
-      "typescript",
-      "shadcn",
-      "mongoose",
-      "express",
-    ],
-    image: "https://i.imgpeek.com/OWaVxhEwHXpl",
-    githubUrl: "https://github.com/esrafil418/Game-hub",
-    liveUrl: "https://game-hub-mu-topaz-77.vercel.app/",
-    category: PROJECT_CATEGORIES.TOP,
-  },
-  {
     id: "product-preview-card",
     title: "Product preview card",
     description:
@@ -212,6 +194,24 @@ export const projects: Project[] = [
     category: PROJECT_CATEGORIES.REACT_MINI,
   },
   {
+    id: "game-hub",
+    title: "Game Hub",
+    description:
+      "Game Hub is a full-stack e-commerce platform for purchasing video games.",
+    tags: [
+      "full-stack",
+      "react",
+      "typescript",
+      "shadcn",
+      "mongoose",
+      "express",
+    ],
+    image: "https://i.imgpeek.com/OWaVxhEwHXpl",
+    githubUrl: "https://github.com/esrafil418/Game-hub",
+    liveUrl: "https://game-hub-mu-topaz-77.vercel.app/",
+    category: PROJECT_CATEGORIES.REACT_MINI,
+  },
+  {
     id: "simple-feature-section",
     title: "Simple Feature Section",
     description:
@@ -220,7 +220,7 @@ export const projects: Project[] = [
     image: "https://i.imgpeek.com/OnogegiJQo1c",
     githubUrl: "https://github.com/esrafil418/Simple-Feature-Section",
     liveUrl: "https://simple-feature-section-challenge.surge.sh/",
-    category: PROJECT_CATEGORIES.REACT_MINI,
+    category: PROJECT_CATEGORIES.DEV_CHALLENGES,
   },
   {
     id: "cadenza-game",
@@ -317,7 +317,7 @@ export const projects: Project[] = [
   },
   {
     id: "shot-guess",
-    title: "Shot Guess",
+    title: "Shot Guess (Play on Mobile)",
     description:
       "Guess the Shots. A frame appears — name the movie, series, or game it belongs to.",
     tags: ["next.js", "tailwind", "supabase"],
@@ -329,7 +329,7 @@ export const projects: Project[] = [
   },
   {
     id: "star-guess",
-    title: "Star Guess",
+    title: "Star Guess (VIP Access)",
     description:
       "Guess the name and see how many faces you really know. Every face holds a story.",
     tags: ["next.js", "tailwind", "supabase"],
